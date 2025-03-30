@@ -1,0 +1,16 @@
+[Unit]
+Description=ComfyMQTT Input Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=orangepi
+Group=orangepi
+WorkingDirectory=/home/orangepi/comfymqtt
+ExecStart=/usr/bin/python3 /home/orangepi/comfymqtt/comfymqtt.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target 
