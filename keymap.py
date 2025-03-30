@@ -1,3 +1,4 @@
+KEY_MAP = {
     "W": "earpiece_down",
     "A": "earpiece_up",
     "J": "cute_row_1",
@@ -9,6 +10,7 @@
     "T": "direction_down",
     "Y": "direction_left",
     "R": "direction_right",
+    "U": "direction_center",
     "X": "color_1",
     "C": "color_2",
     "V": "color_3",
@@ -20,3 +22,4 @@
     "S": "symbol_cloud",
     "Z": "symbol_wheel",
     "I": "symbol_stop"
+}
