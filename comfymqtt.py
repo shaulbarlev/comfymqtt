@@ -74,7 +74,7 @@ for device in devices:
     print(device.path, device.name)
     
 try:
-    keyboard = InputDevice('/dev/input/event2')
+    keyboard = InputDevice('/dev/input/by-id/usb-_COMFY-5_USB_Keyboard-event-kbd')
     print(f"Using keyboard: {keyboard.name}")
 except Exception as e:
     print(f"Error opening keyboard: {e}")
