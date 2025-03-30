@@ -1,0 +1,6 @@
+#MQTT Connection credentials
+MQTT_USERNAME = "username"
+MQTT_PASSWORD = "password" 
+MQTT_BROKER = "192.168.50.50"
+MQTT_PORT = 1883
+MQTT_KEEPALIVE = 60
